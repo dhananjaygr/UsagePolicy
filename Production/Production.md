@@ -266,64 +266,36 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
 
        ![](./img/17.png)
 
-8. **PostgreSQL DB System** : 
-
-   i. The metric used is
+8. **PostgreSQL DB System** : The metrics used are max-ocpu-cores, max-memory-gb, max-nodes, max-iops
 
    - Policy
+     ```
+     [
+         {
+           "ResourceType": "OCI.PostgreSqlDbsystem",
+            "Parameter": [
+              {
+                  "Name": "max-memory-gb",
+                  "Value": "30"
+              },
+              {
+                  "Name": "max-nodes",
+                  "Value": "1"
+              },
+  	          {
+                  "Name": "max-iops",
+                  "Value": "70000"
+              }
+            ]
+         }
+     ]
+     ```
 
    - Output
-
-       Cloud Screenshot:
-     
-       ![](./img/18.png)
         
        Alerts Received:
 
-       ![](./img/17.png)
-
-
-   ii. The metric used is
-
-   - Policy
-
-   - Output
-
-       Cloud Screenshot:
-     
-       ![](./img/18.png)
-        
-       Alerts Received:
-
-       ![](./img/17.png)
-
-   iii. The metric used is
-
-   - Policy
-
-   - Output
-
-       Cloud Screenshot:
-     
-       ![](./img/18.png)
-        
-       Alerts Received:
-
-       ![](./img/17.png)
-
-   iv. The metric used is
-
-   - Policy
-
-   - Output
-
-       Cloud Screenshot:
-     
-       ![](./img/18.png)
-        
-       Alerts Received:
-
-       ![](./img/17.png)
+       ![](./img/21-db.png)
 
 
 9.  **DB System** :
@@ -331,107 +303,78 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
    i. The metric used is
 
    - Policy
+     ```
+     [
+         {
+            "ResourceType": "OCI.DbSystem",
+             "Parameter": [
+                {
+                    "Name": "max-cpu-cores",
+                    "Value": "1"
+                },
+                {
+                    "Name": "max-memory-gb",
+                    "Value": "16"
+                },
+                {
+                    "Name": "max-storage-gb",
+                    "Value": "1024"
+                },
+                {
+                    "Name": "max-cluster-memory-gb",
+                    "Value": "32"
+                },
+                {
+                    "Name": "max-nodes",
+                    "Value": "1"
+                }
+             ]
+         }
+     ]
+     ```
 
    - Output
 
-       Cloud Screenshot:
-     
-       ![](./img/18.png)
-        
        Alerts Received:
 
-       ![](./img/17.png)
-
-
-   ii. The metric used is
-
-   - Policy
-
-   - Output
-
-       Cloud Screenshot:
-     
-       ![](./img/18.png)
-        
-       Alerts Received:
-
-       ![](./img/17.png)
-
-   iii. The metric used is
-
-   - Policy
-
-   - Output
-
-       Cloud Screenshot:
-     
-       ![](./img/18.png)
-        
-       Alerts Received:
-
-       ![](./img/17.png)
-
-   iv. The metric used is
-
-   - Policy
-
-   - Output
-
-       Cloud Screenshot:
-     
-       ![](./img/18.png)
-        
-       Alerts Received:
-
-       ![](./img/17.png)
-
+       ![](./img/20-dbsys.png)
 
 10. **Autonomous Database** :
 
    i. The metric used is
 
    - Policy
+     ```
+     [
+         {
+            "ResourceType": "OCI.AutonomousDatabase",
+            "Parameter": [
+                {
+                    "Name": "max-ocpu-cores",
+                    "Value": "1"
+                },
+                {
+                    "Name": "max-ecpu-cores",
+                    "Value": "1"
+                },
+                {
+                    "Name": "max-storage-gb",
+                    "Value": "1024"
+                }
+             ]
+         }
+     ]
 
    - Output
-
-       Cloud Screenshot:
-     
-       ![](./img/18.png)
         
        Alerts Received:
 
-       ![](./img/17.png)
+       ![](./img/19-auto.png)
 
-
-   ii. The metric used is
-
-   - Policy
-
-   - Output
-
-       Cloud Screenshot:
-     
-       ![](./img/18.png)
-        
-       Alerts Received:
-
-       ![](./img/17.png)
-
-
-
-   
     
 Below is the usage policy URL for all OCI resources, which includes: VolumeBackup, BootVolumeBackup, BootVolume, Functions, DB System, Autonomous Database, PostgreSQL DB System, File System, Volume, Bucket, and Instance.
 
    - Policy URL: https://cloudlabs-prod-templates-s3.s3.amazonaws.com/WIZ/test/OCI+Usage+Policy/usagepolicyOCI.json 
-
-   - Output:
-
-       Alerts Received: 
-
-       **PostgreSQL DB System, DB System, Autonomous Database:**
-        
-       ![](./img/15.png)
 
 
 
