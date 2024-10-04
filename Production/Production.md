@@ -266,7 +266,7 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
      
    
     
-8. Below is the usage policy URL for all OCI resources, which includes: VolumeBackup, BootVolumeBackup, BootVolume, Functions, DB System, Autonomous Database, PostgreSQL DB System, File System, Volume, Bucket, and Instance.
+Below is the usage policy URL for all OCI resources, which includes: VolumeBackup, BootVolumeBackup, BootVolume, Functions, DB System, Autonomous Database, PostgreSQL DB System, File System, Volume, Bucket, and Instance.
 
    - Policy URL: https://cloudlabs-prod-templates-s3.s3.amazonaws.com/WIZ/test/OCI+Usage+Policy/usagepolicyOCI.json 
 
