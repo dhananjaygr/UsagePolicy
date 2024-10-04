@@ -240,21 +240,25 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
 
    - Policy
    
-   ```
-   [
-      {
-        "ResourceType": "OCI.FileSystem",
-        "Parameter": [
-            {
-                "Name": "max-storage-gb",
-                "Value": "1"
-            }
-        ]
-      }
-   ]
-   ```
+     ```
+           [
+              {
+                "ResourceType": "OCI.FileSystem",
+                "Parameter": [
+                    {
+                        "Name": "max-storage-gb",
+                        "Value": "1"
+                    }
+                ]
+              }
+           ]
+      ```
    
    - Output
+       Cloud Screenshot:
+     
+       Alerts:
+     
    
     
 8. Below is the usage policy URL for all OCI resources, which includes: VolumeBackup, BootVolumeBackup, BootVolume, Functions, DB System, Autonomous Database, PostgreSQL DB System, File System, Volume, Bucket, and Instance.
