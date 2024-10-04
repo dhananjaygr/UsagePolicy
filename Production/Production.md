@@ -235,8 +235,6 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
 
        ![](./img/16.png)
 
-       Alerts: Not Received.
-
      
 7. **File System** : The metric used is **Storage (GB).**
 
