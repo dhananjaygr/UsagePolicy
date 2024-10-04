@@ -1,4 +1,4 @@
-# OCI Resource Usage Policy
+# OCI Resource Usage Policy 
 
 ### Overview
 
