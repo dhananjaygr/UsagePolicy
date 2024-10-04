@@ -30,7 +30,9 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
 
 Below are the Resource Usage Policy and Alerts outputs for the respective resources.
 
-1. **Instance:** The metric used is the **count of instances.**
+1. **Instance** : 
+
+   i. The metric used is **count of instances.**
 
    - Policy:
 
@@ -72,7 +74,7 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
         
        ![](./img/05.png)
 
-   **Instance:** The metrics used are **OCPU Cores** and **Memory (GB).**
+   ii. The metrics used are **OCPU Cores** and **Memory (GB).**
 
    - Output:
 
@@ -84,7 +86,7 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
 
        ![](./img/07.png)
 
-2. **Bucket:** The metric used is the **Storage (GB).** 
+2. **Bucket** : The metric used is **Storage (GB).** 
 
    - Policy:
 
@@ -110,7 +112,7 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
 
        Alerts : Not received.      
 
-3. **Boot Volume:** The metric used is **VPUs (per GB)** and **Volume (GB).**
+3. **Boot Volume** : The metric used is **VPUs (per GB)** and **Volume (GB).**
 
    - Policy:
 
@@ -142,7 +144,7 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
         
        ![](./img/10.png)
 
-4. **Block Volume:** The metric used is **VPUs (per GB)** and **Volume (GB).**
+4. **Block Volume** : The metric used is **VPUs (per GB)** and **Volume (GB).**
 
    - Policy:
 
@@ -178,7 +180,7 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
         
        ![](./img/12.png)
 
-5. **Boot Volume Backup:** The metric used is **Volume (GB).**
+5. **Boot Volume Backup** : The metric used is **Volume (GB).**
 
    - Policy:
 
@@ -206,7 +208,7 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
         
        ![](./img/14.png)
 
-6. **Block Volume Backup:** The metric used is **Volume (GB).** 
+6. **Block Volume Backup** : The metric used is **Volume (GB).** 
 
    - Policy:
 
@@ -260,10 +262,163 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
      
        ![](./img/18.png)
         
-       Alerts:
+       Alerts Received:
 
        ![](./img/17.png)
+
+8. **PostgreSQL DB System** : 
+
+   i. The metric used is
+
+   - Policy
+
+   - Output
+
+       Cloud Screenshot:
      
+       ![](./img/18.png)
+        
+       Alerts Received:
+
+       ![](./img/17.png)
+
+
+   ii. The metric used is
+
+   - Policy
+
+   - Output
+
+       Cloud Screenshot:
+     
+       ![](./img/18.png)
+        
+       Alerts Received:
+
+       ![](./img/17.png)
+
+   iii. The metric used is
+
+   - Policy
+
+   - Output
+
+       Cloud Screenshot:
+     
+       ![](./img/18.png)
+        
+       Alerts Received:
+
+       ![](./img/17.png)
+
+   iv. The metric used is
+
+   - Policy
+
+   - Output
+
+       Cloud Screenshot:
+     
+       ![](./img/18.png)
+        
+       Alerts Received:
+
+       ![](./img/17.png)
+
+
+9.  **DB System** :
+
+   i. The metric used is
+
+   - Policy
+
+   - Output
+
+       Cloud Screenshot:
+     
+       ![](./img/18.png)
+        
+       Alerts Received:
+
+       ![](./img/17.png)
+
+
+   ii. The metric used is
+
+   - Policy
+
+   - Output
+
+       Cloud Screenshot:
+     
+       ![](./img/18.png)
+        
+       Alerts Received:
+
+       ![](./img/17.png)
+
+   iii. The metric used is
+
+   - Policy
+
+   - Output
+
+       Cloud Screenshot:
+     
+       ![](./img/18.png)
+        
+       Alerts Received:
+
+       ![](./img/17.png)
+
+   iv. The metric used is
+
+   - Policy
+
+   - Output
+
+       Cloud Screenshot:
+     
+       ![](./img/18.png)
+        
+       Alerts Received:
+
+       ![](./img/17.png)
+
+
+10. **Autonomous Database** :
+
+   i. The metric used is
+
+   - Policy
+
+   - Output
+
+       Cloud Screenshot:
+     
+       ![](./img/18.png)
+        
+       Alerts Received:
+
+       ![](./img/17.png)
+
+
+   ii. The metric used is
+
+   - Policy
+
+   - Output
+
+       Cloud Screenshot:
+     
+       ![](./img/18.png)
+        
+       Alerts Received:
+
+       ![](./img/17.png)
+
+
+
    
     
 Below is the usage policy URL for all OCI resources, which includes: VolumeBackup, BootVolumeBackup, BootVolume, Functions, DB System, Autonomous Database, PostgreSQL DB System, File System, Volume, Bucket, and Instance.
