@@ -8,7 +8,7 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
 
 - Before adding the OCI Resource Usage Policy in the Template, ensure you have the following prerequisites:      
   
-  Admin access to [CloudLabs Admin Portal](https://admin.cloudlabs.ai/) (If access is unavailable, kindly reach out to your point of contact or [CloudLabs Support](https://docs.cloudlabs.ai/RequestSupport)).
+Admin access to [CloudLabs Admin Portal](https://admin.cloudlabs.ai/) (If access is unavailable, kindly reach out to your point of contact or [CloudLabs Support](https://docs.cloudlabs.ai/RequestSupport)).
 
 ### Adding OCI Resource Usage Policy
 
@@ -266,7 +266,7 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
 
        ![](./img/17.png)
 
-8. **PostgreSQL DB System** : The metrics used are max-ocpu-cores, max-memory-gb, max-nodes, max-iops
+8. **PostgreSQL DB System** : The metrics used are **max-ocpu-cores**, **max-memory-gb**, **max-nodes**, and **max-iops**.
 
    - Policy
      ```
@@ -298,7 +298,7 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
        ![](./img/21-db.png)
 
 
-9.  **DB System** :
+9.  **DB System** :  The metrics used are **max-nodes**, **max-cluster-memory-gb**, **max-storage-gb**, **max-memory-gb**, and **max-cpu-cores**.
 
    i. The metric used is
 
@@ -339,7 +339,7 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
 
        ![](./img/20-dbsys.png)
 
-10. **Autonomous Database** :
+10. **Autonomous Database** :  The metrics used are **max-ecpu-cores**, **max-ocpu-cores**, **max-storage-gb**.
 
    i. The metric used is
 
