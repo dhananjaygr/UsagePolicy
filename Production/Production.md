@@ -241,23 +241,28 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
    - Policy
    
      ```
-           [
-              {
-                "ResourceType": "OCI.FileSystem",
-                "Parameter": [
-                    {
-                        "Name": "max-storage-gb",
-                        "Value": "1"
-                    }
-                ]
-              }
-           ]
-      ```
+     [
+       {
+          "ResourceType": "OCI.FileSystem",
+          "Parameter": [
+            {
+              "Name": "max-storage-gb",
+              "Value": "1"
+             }
+            ]
+         }
+      ]
+     
+     ```
    
    - Output
        Cloud Screenshot:
      
+       ![](./img/18.png)
+        
        Alerts:
+
+       ![](./img/17.png)
      
    
     
