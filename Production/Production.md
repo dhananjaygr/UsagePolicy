@@ -26,7 +26,7 @@ Admin access to [CloudLabs Admin Portal](https://admin.cloudlabs.ai/) (If access
 
    ![](./img/03.png)
 
-### Usage Policy Uand Alerts Outputs
+### Usage Policy and Alerts Outputs
 
 Below are the Resource Usage Policy and Alerts outputs for the respective resources.
 
