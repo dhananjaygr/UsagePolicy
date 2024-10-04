@@ -70,7 +70,7 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
 
        ![](./img/04.png)
 
-       Alerts Received: 
+       Alert: 
         
        ![](./img/05.png)
 
@@ -82,7 +82,7 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
 
        ![](./img/06.png)
 
-       Alerts Received: 
+       Alerts: 
 
        ![](./img/07.png)
 
@@ -108,9 +108,7 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
 
        Cloud Screenshot: 
 
-       ![](./img/08.png)
-
-       Alerts : Not received.      
+       ![](./img/08.png)  
 
 3. **Boot Volume** : The metric used is **VPUs (per GB)** and **Volume (GB).**
 
@@ -140,7 +138,7 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
 
        ![](./img/09.png)
 
-       Alerts Received: 
+       Alert: 
         
        ![](./img/10.png)
 
@@ -176,7 +174,7 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
 
        ![](./img/11.png)
 
-       Alerts Received: 
+       Alert: 
         
        ![](./img/12.png)
 
@@ -204,7 +202,7 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
 
        ![](./img/13.png)
 
-       Alerts Received: 
+       Alert: 
         
        ![](./img/14.png)
 
@@ -260,7 +258,7 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
      
        ![](./img/18.png)
         
-       Alerts Received:
+       Alert:
 
        ![](./img/17.png)
 
@@ -291,7 +289,7 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
 
    - Output
         
-       Alerts Received:
+       Alert:
 
        ![](./img/21-db.png)
 
@@ -333,7 +331,7 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
 
    - Output
 
-       Alerts Received:
+       Alert:
 
        ![](./img/20-dbsys.png)
 
@@ -365,7 +363,7 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
 
    - Output
         
-       Alerts Received:
+       Alert:
 
        ![](./img/19-auto.png)
 
